@@ -8,7 +8,8 @@ const config = {
   server: 'your-server-address',
   database: 'your-database-name',
   options: {
-    encrypt: true, // Use this if you're on Windows Azure
+    encrypt: true,
+    trustServerCertificate: true// Use this if you're on Windows Azure
   },
 };
 
