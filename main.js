@@ -23,6 +23,7 @@ async function runDatabaseQuery() {
 
     // Log the result of the query
     console.log(result.recordset);
+    console.log('Rows affected:', result.rowsAffected[0]);
   } catch (err) {
     console.error('Error running the database query:', err);
   } finally {
